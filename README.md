@@ -1,17 +1,17 @@
-# basic-skills
+# dotskills
 
 The agent skills I install in every new repo, in one command.
 
 Run from the root of the new repo:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/SantiagoZarate/basic-skills/main/install-skills.sh | bash
+curl -fsSL https://raw.githubusercontent.com/SantiagoZarate/dotskills/main/install-skills.sh | bash
 ```
 
 Extra flags go to `npx skills add`. For example, to install only for Claude Code:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/SantiagoZarate/basic-skills/main/install-skills.sh | bash -s -- -a claude-code
+curl -fsSL https://raw.githubusercontent.com/SantiagoZarate/dotskills/main/install-skills.sh | bash -s -- -a claude-code
 ```
 
 ## Skills

@@ -2,7 +2,7 @@
 # Installs the agent skills I use in every new repo.
 #
 # Usage (from the repo root):
-#   curl -fsSL https://raw.githubusercontent.com/SantiagoZarate/basic-skills/main/install-skills.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/SantiagoZarate/dotskills/main/install-skills.sh | bash
 #
 # Extra args are passed to `skills add`, e.g. to install globally for Claude Code only:
 #   curl -fsSL .../install-skills.sh | bash -s -- -g -a claude-code
